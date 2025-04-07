@@ -10,4 +10,12 @@
     <h2>Sobre mim:</h2>
     <p>Me chamo Matheus Iury Bezerra Abreu. Sou um jovem de 18 anos que busca aprender, melhorar e saber mais sobre a área de tecnologia.</p>
     <p>Quero criar um futuro para mim na área de tecnologia e encontrar uma maneira de ter uma vida equilibrada entre o tempo livre e o trabalho.</p>
+    
+<h2>Minha experiência</h2>
+<ul>
+<li>Nome</li>
+<li>Telefone</li>
+<li>Casa</li>
+<li>Estado</li>
+</ul>
 </html>
