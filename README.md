@@ -49,18 +49,3 @@
 </body>
 </html>
 
-<h2>Assuntos Pessoais</h2>
-<ol>
-    <li>Coisas que eu gosto</li>
-    <ul>
-    <li>Sushi
-    <li>jogos
-    <li>viajar
-    <ul>
-<ol>
-    <li>Coisas que eu não gosto</li>
-    <ul>
-    <li>sons de algo raspando
-    <li>cheiros fortes
-    <li>comidas azedas
-</html>
