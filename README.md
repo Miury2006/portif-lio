@@ -13,7 +13,7 @@
     
 <h2>Minha experiência</h2>
 <ul>
-<li>Inglês Intermédiario</li>
+<li>Inglês Intermédiario em formação</li>
 <li>Ensino Médio Completo</li>
 <li>Informática Básica</li>
 <li>Faculdade de Ciência da Computação em formação</li>
