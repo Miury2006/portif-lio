@@ -18,4 +18,12 @@
 <li>Informática Básica</li>
 <li>Faculdade de Ciência da Computação em formação</li>
 </ul>
+
+<h2>Minhas Qualidades</h2>
+<ol>
+<li>Organizado
+<li>Facilidade de aprender 
+<li>Cooperativo
+<li>Dedicado
+</ol>
 </html>
