@@ -26,4 +26,15 @@
 <li>Cooperativo
 <li>Dedicado
 </ol>
+
+<h2>Tipos de</h2>
+<dl>
+<dt>Html</dt>
+<dd> Html Basico</dd>
+<dd> Html Avançado</dd>
+<dt> PHP</dt>
+<dd> PHP Básico</dd>
+<dd> PHP Intermediário</dd>
+<dd> PHP Avançado</dd>
+</dl>
 </html>
