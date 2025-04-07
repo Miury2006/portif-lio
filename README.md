@@ -27,14 +27,13 @@
 <li>Dedicado
 </ol>
 
-<h2>Tipos de</h2>
-<dl>
-<dt>Html</dt>
-<dd> Html Basico</dd>
-<dd> Html Avançado</dd>
-<dt> PHP</dt>
-<dd> PHP Básico</dd>
-<dd> PHP Intermediário</dd>
-<dd> PHP Avançado</dd>
-</dl>
+<h2>Assuntos Pessoais</h2>
+<ol>
+    <li>coisas que eu gosto</li>
+    <ul>
+    <li>Sushi
+    <li>jogos
+    <li>viajar
+    <ul>
+
 </html>
