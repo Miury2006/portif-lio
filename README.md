@@ -13,9 +13,9 @@
     
 <h2>Minha experiência</h2>
 <ul>
-<li>Nome</li>
-<li>Telefone</li>
-<li>Casa</li>
-<li>Estado</li>
+<li>Inglês Intermédiario</li>
+<li>Ensino Médio Completo</li>
+<li>Informática Básica</li>
+<li>Faculdade de Ciência da Computação em formação</li>
 </ul>
 </html>
