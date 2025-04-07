@@ -19,13 +19,35 @@
 <li>Faculdade de Ciência da Computação em formação</li>
 </ul>
 
-<h2>Minhas Qualidades</h2>
-<ol>
-<li>Organizado
-<li>Facilidade de aprender 
-<li>Cooperativo
-<li>Dedicado
-</ol>
+ <h2>Minhas Qualidades</h2>
+    <ol>
+        <li>Organizado</li>
+        <li>Facilidade de aprender</li>
+        <li>Cooperativo</li>
+        <li>Dedicado</li>
+    </ol>
+
+    <h2>Assuntos Pessoais</h2>
+    <ol>
+        <li>Coisas que eu gosto
+            <ul>
+                <li>Sushi</li>
+                <li>Jogos</li>
+                <li>Viajar</li>
+            </ul>
+        </li>
+        <li>Coisas que eu não gosto
+            <ul>
+                <li>Sons de algo raspando</li>
+                <li>Cheiros fortes</li>
+                <li>Comidas azedas</li>
+            </ul>
+        </li>
+    </ol>
+    
+    <h2>Duração dos meus cursos</h2>
+</body>
+</html>
 
 <h2>Assuntos Pessoais</h2>
 <ol>
