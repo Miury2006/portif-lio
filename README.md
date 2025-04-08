@@ -43,7 +43,6 @@
             </ul>
         </li>
     </ol>
-    
     <h2>Duração dos meus cursos</h2>
 </body>
 </html>
