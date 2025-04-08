@@ -26,7 +26,6 @@
         <li>Cooperativo</li>
         <li>Dedicado</li>
     </ol>
-
     <h2>Assuntos Pessoais</h2>
     <ol>
         <li>Coisas que eu gosto
