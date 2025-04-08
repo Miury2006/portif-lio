@@ -50,19 +50,15 @@
   <form action="#" method="post">
     <label for="nome">Nome:</label><br>
     <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
-  
     <label for="email">E-mail:</label><br>
     <input type="email" id="email" name="email" placeholder="exemplo@email.com"><br><br>
-  
     <label for="idade">Idade:</label><br>
     <input type="number" id="idade" name="idade" min="10" max="100"><br><br>
-  
     <label>Interesse:</label><br>
     <input type="radio" id="site" name="interesse" value="site" checked>
     <label for="site">Site</label><br><br>
     <input type="radio" id="mentoria" name="interesse" value="site" checked>
     <label for="mentoria">Mentoria</label><br><br>
-  
     <input type="submit" value="Enviar">
   </form>
   
