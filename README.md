@@ -1,149 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio</title>
 </head>
 <body>
-<<<<<<< HEAD
 
   <header>
     <h1>Portfólio</h1>
-    <img src="Matheus.png" width="170" alt="Foto de Matheus" />
+    <figure>
+      <img src="Matheus.png" width="200" alt="Foto de Matheus" />
+      <figcaption><strong>Matheus Iury Bezerra Abreu</strong></figcaption>
+    </figure>
   </header>
 
   <main>
     <section>
-      <h2>Sobre mim:</h2>
-      <p>Me chamo Matheus Iury Bezerra Abreu. Sou um jovem de 18 anos que busca aprender, melhorar e saber mais sobre a área de tecnologia.</p>
-      <p>Quero criar um futuro para mim na área de tecnologia e encontrar uma maneira de ter uma vida equilibrada entre o tempo livre e o trabalho.</p>
+      <h2>Sobre Mim</h2>
+      <p>Me chamo Matheus Iury Bezerra Abreu. Tenho 18 anos e sou apaixonado por tecnologia. Estou sempre em busca de aprendizado, evolução e novas descobertas nessa área.</p>
+      <p>Meu objetivo é construir uma carreira sólida em tecnologia, mantendo um equilíbrio saudável entre trabalho e vida pessoal.</p>
     </section>
 
     <section>
-      <h2>Minha experiência</h2>
+      <h2>Experiência</h2>
       <ul>
-        <li>Inglês Intermediário em formação</li>
-        <li>Ensino Médio Completo</li>
-        <li>Informática Básica</li>
-        <li>Faculdade de Ciência da Computação em formação</li>
+        <li>Inglês intermediário (em formação)</li>
+        <li>Ensino Médio completo</li>
+        <li>Conhecimento em Informática Básica</li>
+        <li>Graduando em Ciência da Computação</li>
       </ul>
     </section>
 
     <section>
-      <h2>Minhas Qualidades</h2>
-      <ol>
+      <h2>Qualidades</h2>
+      <ul>
         <li>Organizado</li>
-        <li>Facilidade de aprender</li>
-        <li>Cooperativo</li>
+        <li>Aprendizado rápido</li>
+        <li>Colaborativo</li>
         <li>Dedicado</li>
-      </ol>
+      </ul>
     </section>
 
     <section>
-      <h2>Assuntos Pessoais</h2>
-      <ol>
-        <li>Coisas que eu gosto:
-          <ul>
-            <li>Sushi</li>
-            <li>Jogos</li>
-            <li>Viajar</li>
-          </ul>
-        </li>
-        <li>Coisas que eu não gosto:
-          <ul>
-            <li>Sons de algo raspando</li>
-            <li>Cheiros fortes</li>
-            <li>Comidas azedas</li>
-          </ul>
-        </li>
-      </ol>
+      <h2>Preferências Pessoais</h2>
+
+      <h3>Gosto de:</h3>
+      <ul>
+        <li>Sushi</li>
+        <li>Jogos</li>
+        <li>Dormir</li>
+        <li>Viajar</li>
+      </ul>
+
+      <h3>Não gosto de:</h3>
+      <ul>
+        <li>Sons de algo raspando</li>
+        <li>Cheiros fortes</li>
+        <li>Barulhos muito altos</li>
+        <li>Comidas azedas</li>
+      </ul>
     </section>
 
     <section>
-      <h2>Entre em Contato</h2>
+      <h2>Contato</h2>
       <form action="#" method="post">
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
-      
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email" name="email" placeholder="exemplo@email.com"><br><br>
-      
-        <label for="idade">Idade:</label><br>
-        <input type="number" id="idade" name="idade" min="10" max="100"><br><br>
-      
-        <label>Interesse:</label><br>
-        <input type="radio" id="site" name="interesse" value="site">
-        <label for="site">Site</label><br><br>
-        <input type="radio" id="mentoria" name="interesse" value="mentoria">
-        <label for="mentoria">Mentoria</label><br><br>
-      
-        <input type="submit" value="Enviar">
+        <label for="nome">Nome:</label><br />
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required /><br /><br />
+
+        <label for="email">E-mail:</label><br />
+        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required /><br /><br />
+
+        <label for="idade">Idade:</label><br />
+        <input type="number" id="idade" name="idade" min="10" max="100" /><br /><br />
+
+        <fieldset>
+          <legend>Interesse:</legend>
+          <input type="radio" id="site" name="interesse" value="site" />
+          <label for="site">Site</label><br />
+          <input type="radio" id="mentoria" name="interesse" value="mentoria" />
+          <label for="mentoria">Mentoria</label>
+        </fieldset><br />
+
+        <input type="submit" value="Enviar" />
       </form>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Matheus Iury. Todos os direitos reservados.</p>
+    <p>Contato direto: <strong>miury4529@gmail.com</strong></p>
   </footer>
 
-=======
-  <h1>Portfólio do Matheus Iury</h1>
-
-  <h2>Sobre mim:</h2>
-  <p>Me chamo Matheus Iury Bezerra Abreu. Sou um jovem de 18 anos que busca aprender, melhorar e saber mais sobre a área de tecnologia.</p>
-  <p>Quero criar um futuro para mim na área de tecnologia e encontrar uma maneira de ter uma vida equilibrada entre o tempo livre e o trabalho.</p>
-
-  <h2>Minha experiência</h2>
-  <ul>
-    <li>Inglês Intermediário em formação</li>
-    <li>Ensino Médio Completo</li>
-    <li>Informática Básica</li>
-    <li>Faculdade de Ciência da Computação em formação</li>
-  </ul>
-
-  <h2>Minhas Qualidades</h2>
-  <ol>
-    <li>Organizado</li>
-    <li>Facilidade de aprender</li>
-    <li>Cooperativo</li>
-    <li>Dedicado</li>
-  </ol>
-
-  <h2>Assuntos Pessoais</h2>
-  <ol>
-    <li>Coisas que eu gosto:
-      <ul>
-        <li>Sushi</li>
-        <li>Jogos</li>
-        <li>Viajar</li>
-      </ul>
-    </li>
-    <li>Coisas que eu não gosto:
-      <ul>
-        <li>Sons de algo raspando</li>
-        <li>Cheiros fortes</li>
-        <li>Comidas azedas</li>
-      </ul>
-    </li>
-  </ol>
-
-  <h2>Entre em Contato</h2>
-  <form action="#" method="post">
-    <label for="nome">Nome:</label><br>
-    <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
-    <label for="email">E-mail:</label><br>
-    <input type="email" id="email" name="email" placeholder="exemplo@email.com"><br><br>
-    <label for="idade">Idade:</label><br>
-    <input type="number" id="idade" name="idade" min="10" max="100"><br><br>
-    <label>Interesse:</label><br>
-    <input type="radio" id="site" name="interesse" value="site" checked>
-    <label for="site">Site</label><br><br>
-    <input type="radio" id="mentoria" name="interesse" value="site" checked>
-    <label for="mentoria">Mentoria</label><br><br>
-    <input type="submit" value="Enviar">
-  </form>
-  
->>>>>>> 92f392864231901dba71b8316e517f9091a28e8a
 </body>
 </html>
