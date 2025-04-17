@@ -17,17 +17,6 @@ O layout é simples, responsivo e com uma paleta de cores agradável. Foi desenv
 .HTML
 .CSS
 
-🚀 Como visualizar o projeto:
-
-1-Clone o repositório:
-git clone https://github.com/seu-usuario/portfolio-matheus-iury.git
-
-2-Acesse a pasta do projeto:
-cd portfolio-matheus-iury
-
-3-Abra o arquivo index.html em seu navegador:
-Clique duas vezes no arquivo, ou use uma extensão como Live Server no VS Code.
-
 ✍️ Funcionalidades:
 
 .Estrutura semântica com HTML
