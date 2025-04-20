@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+  --bg-color: #4ecca3;
+  --text-color: #333a56;
+  --accent-color: #15996d;
+  --highlight-color: #ff5959;
+  --card-bg: #ffffff;
+  --radius: 8px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.404);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+header img {
+  border-radius: 50%;
+  border: 3px solid var(--accent-color);
+  box-shadow: var(--shadow);
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: var(--card-bg);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+h2 {
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: var(--highlight-color);
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+form input, form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: var(--radius);
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #3eb28d;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+footer p {
+  margin: 5px 0;
+}
