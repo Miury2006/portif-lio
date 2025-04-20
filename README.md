@@ -1,29 +1,52 @@
-💼 Portfólio Pessoal – Matheus Iury
-Este é um projeto de site de portfólio pessoal desenvolvido em HTML e CSS para apresentar minhas informações, experiências, preferências e formas de contato de maneira clara e estilizada.
+# 🌐 Portfólio Profissional — Matheus Iury Bezerra Abreu
 
+Este é meu portfólio pessoal desenvolvido em **HTML5**. Nele, apresento quem sou, minhas experiências, projetos, preferências, formas de contato e muito mais!
 
-📌 Descrição
-Este site foi criado com o objetivo de apresentar um pouco mais sobre mim, Matheus Iury Bezerra Abreu. Ele é dividido em seções que incluem:
+## 👨‍💻 Sobre Mim
 
-.Sobre mim
-.Experiência
-.Qualidades pessoais
-.Preferências (gostos e desgostos)
-.Formulário de contato
+Me chamo **Matheus Iury Bezerra Abreu**, tenho 18 anos e sou apaixonado por tecnologia. Estou sempre em busca de novos aprendizados e evolução contínua. Tenho como objetivo construir uma carreira sólida na área de tecnologia e desenvolvimento.
 
-O layout é simples, responsivo e com uma paleta de cores agradável. Foi desenvolvido utilizando apenas HTML5 e CSS3, o que mostra o domínio das bases fundamentais do desenvolvimento web.
+## 💼 Experiência Profissional
 
-🧠 Tecnologias Utilizadas:
-.HTML
-.CSS
+| Empresa  | Local | Função |
+|----------|-------|--------|
+| Nenhuma  |   -   |   -    |
 
-✍️ Funcionalidades:
+## 🚀 Projetos Desenvolvidos
 
-.Estrutura semântica com HTML
-.Estilização moderna e responsiva com CSS
-.Formulário funcional (HTML apenas, sem backend ainda)
-.Interface amigável e visual agradável
+- **Cartão de Visita Digital**: Layout simples e direto, utilizando HTML e CSS.
+- **Portfólio Pessoal**: Este projeto, com informações completas sobre mim.
+- **Site de Gestão Financeira**: Sistema de controle financeiro pessoal.
+- **Site de Previsão do Tempo**: Integração com API para exibir o clima em tempo real.
 
+## ⭐ Qualidades
 
+- Organizado  
+- Aprendizado rápido  
+- Colaborativo  
+- Dedicado  
 
+## 🎯 Preferências Pessoais
+
+**Gosto de:**
+- Sushi  
+- Jogos  
+- Dormir  
+- Viajar  
+
+**Não gosto de:**
+- Sons de algo raspando  
+- Cheiros fortes  
+- Barulhos muito altos  
+- Comidas azedas  
+
+## 📬 Contato
+
+Caso deseje entrar em contato, envie um e-mail para:
+
+📧 **miury4529@gmail.com**
+
+---
+
+🖥️ Desenvolvido com carinho por **Matheus Iury**
 
