@@ -1,6 +1,6 @@
 # Portfólio Profissional — Matheus Iury Bezerra Abreu
 
-Este é meu portfólio pessoal desenvolvido em **HTML5**. Nele, apresento quem sou, minhas experiências, projetos, preferências, formas de contato e muito mais!
+Este é meu portfólio pessoal desenvolvido em **HTML**. Nele, apresento quem sou, minhas experiências, projetos, preferências, formas de contato e muito mais!
 
 ##  Sobre Mim
 
