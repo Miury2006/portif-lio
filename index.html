@@ -3,37 +3,54 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfólio</title>
+  <title>Portfólio do Matheus Iury</title>
 </head>
 <body>
 
   <header>
-    <h1>Portfólio</h1>
-    <figure>
-      <img src="Matheus.png" width="200" alt="Foto de Matheus" />
-      <figcaption><strong>Matheus Iury Bezerra Abreu</strong></figcaption>
-    </figure>
+    <h1>Matheus Iury Bezerra Abreu</h1>
+    <img src="Matheus.png" alt="Foto de Matheus Iury" width="150" />
   </header>
 
   <main>
+
     <section>
-      <h2>Sobre Mim</h2>
-      <p>Me chamo Matheus Iury Bezerra Abreu. Tenho 18 anos e sou apaixonado por tecnologia. Estou sempre em busca de aprendizado, evolução e novas descobertas nessa área.</p>
-      <p>Meu objetivo é construir uma carreira sólida em tecnologia, mantendo um equilíbrio saudável entre trabalho e vida pessoal.</p>
+      <h2 id="sobre">Sobre Mim</h2>
+      <p>Me chamo Matheus Iury Bezerra Abreu, sou um jovem de 18 anos interessado em ingressar na área de tecnológia, sempre busca aprender, pesquisar e sempre melhorar a mim mesmo para poder realiazar meus onjetivos</p>
     </section>
 
     <section>
-      <h2>Experiência</h2>
+      <h2 id="experiencia">Experiência Profissional</h2>
+      <table border="1" cellspacing="0" cellpadding="8">
+        <thead>
+          <tr>
+            <th>Empresa</th>
+            <th>Local</th>
+            <th>Função</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nenhuma</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2 id="projetos">Projetos Desenvolvidos</h2>
       <ul>
-        <li>Inglês intermediário (em formação)</li>
-        <li>Ensino Médio completo</li>
-        <li>Conhecimento em Informática Básica</li>
-        <li>Graduando em Ciência da Computação</li>
+        <li><strong>Cartão de Visita Digital:</strong> layout simples e objetivo com HTML e CSS.</li>
+        <li><strong>Portfólio Pessoal:</strong> apresentação profissional com informações e contato.</li>
+        <li><strong>Site de Gestão Financeira:</strong> controle de gastos e organização financeira.</li>
+        <li><strong>Site de Previsão do Tempo:</strong> consumo de API para exibir clima em tempo real.</li>
       </ul>
     </section>
 
     <section>
-      <h2>Qualidades</h2>
+      <h2 id="qualidades">Qualidades</h2>
       <ul>
         <li>Organizado</li>
         <li>Aprendizado rápido</li>
@@ -43,52 +60,54 @@
     </section>
 
     <section>
-      <h2>Preferências Pessoais</h2>
-      <h3>Gosto de:</h3>
-      <ul>
-        <li>Sushi</li>
-        <li>Jogos</li>
-        <li>Dormir</li>
-        <li>Viajar</li>
-      </ul>
-
-      <h3>Não gosto de:</h3>
-      <ul>
-        <li>Sons de algo raspando</li>
-        <li>Cheiros fortes</li>
-        <li>Barulhos muito altos</li>
-        <li>Comidas azedas</li>
-      </ul>
+      <h2 id="preferencias">Preferências Pessoais</h2>
+      <div>
+        <h3>Gosto de:</h3>
+        <ul>
+          <li>Sushi</li>
+          <li>Jogos</li>
+          <li>Dormir</li>
+          <li>Viajar</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Não gosto de:</h3>
+        <ul>
+          <li>Sons de algo raspando</li>
+          <li>Cheiros fortes</li>
+          <li>Barulhos muito altos</li>
+          <li>Comidas azedas</li>
+        </ul>
+      </div>
     </section>
 
     <section>
-      <h2>Contato</h2>
+      <h2 id="contato">Fale Comigo</h2>
       <form action="#" method="post">
-        <label for="nome">Nome:</label><br />
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required /><br />
+        <div>
+          <label for="nome">Nome:</label><br />
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+        </div><br />
+        
+        <div>
+          <label for="email">E-mail:</label><br />
+          <input type="email" id="email" name="email" placeholder="exemplo@email.com" required />
+        </div><br />
+        
+        <div>
+          <label for="idade">Idade:</label><br />
+          <input type="number" id="idade" name="idade" placeholder="Sua idade" min="10" max="100" />
+        </div><br />
 
-        <label for="email">E-mail:</label><br />
-        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required /><br />
-
-        <label for="idade">Idade:</label><br />
-        <input type="number" id="idade" name="idade" min="10" max="100" /><br />
-
-        <fieldset>
-          <legend>Interesse:</legend>
-          <input type="radio" id="site" name="interesse" value="site" />
-          <label for="site">Site</label><br />
-          <input type="radio" id="mentoria" name="interesse" value="mentoria" />
-          <label for="mentoria">Mentoria</label>
-        </fieldset><br />
-
-        <input type="submit" value="Enviar" />
+        <button type="submit">Enviar</button>
       </form>
     </section>
+
   </main>
 
   <footer>
     <p>&copy; 2025 Matheus Iury. Todos os direitos reservados.</p>
-    <p>Contato direto: <strong>miury4529@gmail.com</strong></p>
+    <p>Contato direto: miury4529@gmail.com</p>
   </footer>
 
 </body>
