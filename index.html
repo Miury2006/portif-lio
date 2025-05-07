@@ -1,93 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-  <title>Portfólio de Matheus Iury</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Matheus Iury</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
-
   <header>
-    <h1>Matheus Iury Bezerra Abreu</h1>
-    <img src="Matheus.png" alt="Foto de Matheus Iury" width="150" />
+    <h1>Matheus Iury</h1>
+    <img src="perfil.jpg" alt="Foto de Matheus Iury" width="150">
   </header>
 
   <main>
-
     <section>
       <h2>Sobre Mim</h2>
-      <p>Me chamo Matheus Iury Bezerra Abreu, tenho 18 anos e sou apaixonado por tecnologia. Desde pequeno sempre fui curioso sobre como as coisas funcionam, e com o tempo fui me apaixonando por computadores, programação e tudo o que envolve o mundo digital.
-
-        Gosto de aprender, pesquisar e buscar novas formas de evoluir, tanto profissionalmente quanto como pessoa.</p>
+      <p>Desenvolvedor apaixonado por tecnologia, criatividade e inovação.</p>
     </section>
 
     <section>
-      <h2>Experiência Profissional</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Empresa</th>
-            <th>Local</th>
-            <th>Função</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Nenhuma</td>
-            <td>-</td>
-            <td>-</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section>
-      <h2>Projetos Desenvolvidos e em Desenvolvimento</h2>
+      <h2>Habilidades</h2>
       <ul>
-        <li><strong>Cartão de Visita Digital:</strong> layout simples com HTML e CSS.</li>
-        <li><strong>Portfólio Pessoal:</strong> site com apresentação pessoal e contatos.</li>
-        <li><strong>Site de Gestão Financeira:</strong> ferramenta para controle de finanças.</li>
-        <li><strong>Site de Previsão do Tempo:</strong> exibe o clima em tempo real via API.</li>
+        <li>HTML, CSS e JavaScript</li>
+        <li>Design Responsivo</li>
+        <li>Experiência com Git e GitHub</li>
       </ul>
     </section>
 
     <section>
-      <h2>Qualidades</h2>
+      <h2>Curiosidades</h2>
       <ul>
-        <li>Organizado</li>
-        <li>Aprende rápido</li>
-        <li>Trabalha bem em equipe</li>
-        <li>Dedicado</li>
+        <li>Cheiros fortes</li>
+        <li>Barulho muito alto</li>
+        <li>Comidas azedas</li>
       </ul>
-    </section>
-
-    <section>
-      <h2>Preferências Pessoais</h2>
-      <div>
-        <h3>Gosto de:</h3>
-        <ul>
-          <li>Sushi</li>
-          <li>Jogos</li>
-          <li>Dormir</li>
-          <li>Viajar</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Não gosto de:</h3>
-        <ul>
-          <li>Barulhos de raspagem</li>
-          <li>Cheiros fortes</li>
-          <li>Barulho muito alto</li>
-          <li>Comidas azedas</li>
-        </ul>
-      </div>
     </section>
 
     <section>
       <h2>Fale Comigo</h2>
-      <form action="#" method="post">
+      <form id="contact-form">
         <div>
           <label for="name">Nome:</label><br />
           <input type="text" id="name" name="name" placeholder="Seu nome" required />
@@ -113,8 +65,10 @@
 
         <button type="submit"><i class="bi bi-send-fill"></i> Enviar</button>
       </form>
+      <div id="form-feedback" style="display:none; margin-top: 20px; color: green;">
+        <p>Obrigado pelo seu contato! Sua mensagem foi enviada com sucesso.</p>
+      </div>
     </section>
-
   </main>
 
   <footer>
@@ -122,5 +76,6 @@
     <p><i class="bi bi-envelope-fill"></i> miury4529@gmail.com</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
